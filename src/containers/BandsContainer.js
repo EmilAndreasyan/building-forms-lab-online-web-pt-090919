@@ -20,6 +20,6 @@ class BandsContainer extends Component {
   }
 }
 
-const mapStateToProps
+const mapStateToProps => 
 
 export default BandsContainer
