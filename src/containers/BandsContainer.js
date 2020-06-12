@@ -22,4 +22,8 @@ class BandsContainer extends Component {
 
 const mapStateToProps = ({bands} => {bands})
 
+const mapDispatchToProps = dispatch => ({
+  
+})
+
 export default BandsContainer
