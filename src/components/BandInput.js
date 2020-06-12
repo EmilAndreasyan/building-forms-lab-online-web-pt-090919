@@ -1,6 +1,5 @@
 // Add BandInput component
 import React, { Component } from 'react';
-import uuid from 'uuid';
 import {connect} from 'react-redux';
 
 class BandInput extends Component {
@@ -9,8 +8,7 @@ class BandInput extends Component {
   
    handleSubmit = event => {
       event.preventDefault()
-      const band = {...state, id: uuid()}
-      this.props.addBand(band)
+      this.props.addBand(this.state)
       this.setState({name: ''})
    }
    
