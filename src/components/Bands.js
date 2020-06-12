@@ -5,8 +5,8 @@ const Bands = props => {
     return <li key={index}>{band.name}</li>
   })
   
-  render(){
-    
-  }
+  return (
+    <div>{bands}</div>
+    )
 }
 export default Bands;
