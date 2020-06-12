@@ -13,7 +13,8 @@ class BandsContainer extends Component {
     return(
       <div>
         BandsContainer
-        <BandInput/>
+        <BandInput />
+        <Bands/>
       </div>
     )
   }
